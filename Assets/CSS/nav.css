@@ -1,0 +1,21 @@
+ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style-type: none;
+    margin: 0;
+    padding-right: 6rem;
+    background-color: var(--darkgrey);
+}
+
+li a {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    display: block;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #fff;
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@200;400;600&display=swap');
+@import url(nav.css);
+
+:root {
+    --darkgrey: #333;
+}
+
+html {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.header-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: var(--darkgrey);
+}
+
+.header-text {
+    padding: 3rem;
+    padding-left: 6rem;
+    font-size: 35px;
+    padding-bottom: 0;
+}
+
+.header-main h1 {
+    font-size: 80px;
+    margin: auto;
+    color: white;
+}
+
+.header-main h2 {
+    color: white;
+}
+
+
+header img {
+    width: 100%;
+    padding: 3rem;
+}
+
+.container-main {
+    border-style: solid;
+    border-color: black;
+    max-width: 950px;
+    margin: auto;
+}
+
+article {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.section-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
