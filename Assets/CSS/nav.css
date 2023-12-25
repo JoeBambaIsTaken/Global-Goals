@@ -18,4 +18,5 @@ li a {
   
 li a:hover {
     background-color: #fff;
+    color: var(--darkgrey);
 }
